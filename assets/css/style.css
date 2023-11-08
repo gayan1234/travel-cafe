@@ -3715,6 +3715,7 @@ body.visible-sidebar{
 
 .main-footer{
   position: relative;
+  background-color: #f2f4f7;
 }
 
 .main-footer.style-two{
@@ -10566,3 +10567,4 @@ body.visible-sidebar{
 .ui-state-default, .ui-widget-content .ui-state-default{
 	text-align:center;
 }
+
