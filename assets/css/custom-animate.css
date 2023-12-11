@@ -583,82 +583,17 @@
 }
 
 .ct-dot-animated .ct-dot-item:nth-child(6) {
-  left: 70%
+    left: auto;
+    right: 0
 }
 
 .ct-dot-animated .ct-dot-item:nth-child(6) span {
     background-color: #ffffff;
-    bottom: 57%;
-    -webkit-animation: dotAnimatedBottomToTop6 25s infinite linear;
-    -moz-animation: dotAnimatedBottomToTop6 25s infinite linear;
-    -o-animation: dotAnimatedBottomToTop6 25s infinite linear;
-    animation: dotAnimatedBottomToTop6 25s infinite linear
-}
-
-.ct-dot-animated .ct-dot-item:nth-child(7) {
-  left: 50%
-}
-
-.ct-dot-animated .ct-dot-item:nth-child(7) span {
-  background-color: #ffffff;
-  bottom: 47%;
-  -webkit-animation: dotAnimatedBottomToTop6 20s infinite linear;
-  -moz-animation: dotAnimatedBottomToTop6 20s infinite linear;
-  -o-animation: dotAnimatedBottomToTop6 20s infinite linear;
-  animation: dotAnimatedBottomToTop6 20s infinite linear
-}
-
-.ct-dot-animated .ct-dot-item:nth-child(8) {
-  left: 80%
-}
-
-.ct-dot-animated .ct-dot-item:nth-child(8) span {
-  background-color: #ffffff;
-  bottom: 46%;
-  -webkit-animation: dotAnimatedBottomToTop5 30s infinite linear;
-  -moz-animation: dotAnimatedBottomToTop5 30s infinite linear;
-  -o-animation: dotAnimatedBottomToTop5 30s infinite linear;
-  animation: dotAnimatedBottomToTop5 30s infinite linear
-}
-
-.ct-dot-animated .ct-dot-item:nth-child(9) {
-  left: 30%
-}
-
-.ct-dot-animated .ct-dot-item:nth-child(9) span {
-  background-color: #ffffff;
-  bottom: 27%;
-  -webkit-animation: dotAnimatedBottomToTop6 30s infinite linear;
-  -moz-animation: dotAnimatedBottomToTop6 30s infinite linear;
-  -o-animation: dotAnimatedBottomToTop6 30s infinite linear;
-  animation: dotAnimatedBottomToTop6 30s infinite linear
-}
-
-.ct-dot-animated .ct-dot-item:nth-child(10) {
-  left: 10%
-}
-
-.ct-dot-animated .ct-dot-item:nth-child(10) span {
-  background-color: #ffffff;
-  bottom: 10%;
-  -webkit-animation: dotAnimatedBottomToTop6 30s infinite linear;
-  -moz-animation: dotAnimatedBottomToTop6 30s infinite linear;
-  -o-animation: dotAnimatedBottomToTop6 30s infinite linear;
-  animation: dotAnimatedBottomToTop6 30s infinite linear
-}
-
-.ct-dot-animated .ct-dot-item:nth-child(11) {
-  left: auto;
-  right: 0
-}
-
-.ct-dot-animated .ct-dot-item:nth-child(11) span {
-  background-color: #ffffff;
-  bottom: 70%;
-  -webkit-animation: dotAnimatedBottomToTop6 10s infinite linear;
-  -moz-animation: dotAnimatedBottomToTop6 10s infinite linear;
-  -o-animation: dotAnimatedBottomToTop6 10s infinite linear;
-  animation: dotAnimatedBottomToTop6 10s infinite linear
+    bottom: 27%;
+    -webkit-animation: dotAnimatedBottomToTop6 30s infinite linear;
+    -moz-animation: dotAnimatedBottomToTop6 30s infinite linear;
+    -o-animation: dotAnimatedBottomToTop6 30s infinite linear;
+    animation: dotAnimatedBottomToTop6 30s infinite linear
 }
 
 .ct-dot-animated .ct-dot-container {
