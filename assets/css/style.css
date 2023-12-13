@@ -4187,7 +4187,7 @@ body.visible-sidebar{
   vertical-align: middle;
   width: 100%;
   padding: 70px 0;
-  height: 720px;
+  height: 760px;
   min-height: calc(100vh - 144px);
   z-index: 10;
 }
@@ -6079,7 +6079,7 @@ body.visible-sidebar{
 
 .inner-banner{
   position: relative;
-  padding: 140px 0px 140px;
+  padding: 300px 0px 300px;
 }
 
 .inner-banner .image-layer{
