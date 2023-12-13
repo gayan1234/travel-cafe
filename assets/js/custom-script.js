@@ -1,6 +1,22 @@
 (function ($) {
   "use strict";
 
+  // Navbar Change when Scroll
+	$(document).ready(function () {
+		var navLinks = $('.main-menu ul.navigation li a,.main-header .header-upper .call-to a,.nmbr');
+
+		$(window).scroll(function () {
+			console.log("Scroll position: " + $(this).scrollTop());
+
+			if ($(this).scrollTop() > 1) { 
+				navLinks.css('color', '#6C7171');
+			}
+			if ($(this).scrollTop() < 1) { 
+				navLinks.css('color', 'white');
+			}
+		});
+	});
+
   //Hide Loading Box (Preloader)
   function handlePreloader() {
     if ($(".loader-wrap").length) {

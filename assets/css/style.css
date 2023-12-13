@@ -1374,10 +1374,10 @@ body.visible-sidebar{
   bottom: 0;
   width: 100%;
   max-width: 320px;
-  background: #fff;
+  background: #ffffff00;
   padding-top: 60px;
   color: #101010;
-  border-right: 4px solid var(--primary-color);
+  /* border-right: 4px solid var(--primary-color); */
   z-index: 9999;
   visibility: hidden;
   -ms-transform: translateX(-400px);
@@ -1420,6 +1420,7 @@ body.visible-sidebar{
 
 .hidden-bar .hidden-bar-closer{
   position: absolute;
+  color: white;
   right: -5px;
   top: 0px;
   padding: 14px 20px;
@@ -6881,7 +6882,7 @@ body.visible-sidebar{
   display: block;
   padding: 45px 45px 45px;
   background: #fff;
-  box-shadow: 0px 0px 30px 0px rgba(2, 24, 93, 0.08);
+  box-shadow: 0px 0px 20px 0px rgba(40, 40, 40, 0.36);
 }
 
 .sidebar-container .s-widget .w-inner{
@@ -7016,7 +7017,7 @@ body.visible-sidebar{
   top: 4px;
   width: 16px;
   height: 16px;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.384);
   border-radius: 3px;
 }
 
