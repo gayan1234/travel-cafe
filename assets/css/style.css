@@ -7778,6 +7778,12 @@ body.visible-sidebar{
   margin-bottom: 15px;
 }
 
+.weather li {
+  position: relative;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
 .destination-single .weather li:last-child{
   margin-bottom: 0;
 }
@@ -7790,7 +7796,22 @@ body.visible-sidebar{
   width: 35%;
 }
 
+.weather li .ttl {
+  position: relative;
+  float: left;
+  color: var(--dark-gray-gray);
+  font-family: 'Gilroy_Bold', sans-serif;
+  width: 35%;
+}
+
 .destination-single .weather li .dtl{
+  position: relative;
+  float: left;
+  width: 65%;
+  padding-left: 20px;
+}
+
+.weather li .dtl {
   position: relative;
   float: left;
   width: 65%;
