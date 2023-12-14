@@ -8934,6 +8934,18 @@ body.visible-sidebar{
   margin: 0 0 0 18px;
 }
 
+.o-info ul li{
+  position: relative;
+  list-style: disc;
+  line-height: 1.60em;
+  margin-bottom: 7px;
+  padding-left: 12px;
+}
+
+.o-info ul li::marker{
+  color: var(--primary-color);
+}
+
 .tp-accordion .block .content ul li{
     position: relative;
     list-style: disc;
@@ -8948,6 +8960,7 @@ body.visible-sidebar{
 .tp-accordion .block .content ul li:last-child{
   margin-bottom: 0;
 }
+
 
 .dsp-container .location{
   position: relative;
