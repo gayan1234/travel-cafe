@@ -6343,7 +6343,7 @@ body.visible-sidebar{
 .team-section .team-block .inner-box{
   position: relative;
   display: block;
-  max-width: 272px;
+  max-width: 285px;
   margin: 0 auto;
 }
 
@@ -6392,9 +6392,10 @@ body.visible-sidebar{
   transform: translateX(-70px);
 }
 
-.team-block .image-box:hover .social-links{
+.team-block .image-box .social-links{
   opacity: 1;
   transform: translateX(0px);
+  padding-bottom: 15px;
 }
 
 .team-block .social-links li{
